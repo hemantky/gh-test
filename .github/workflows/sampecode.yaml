@@ -1,0 +1,16 @@
+name: this is samplecode
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'main'
+jobs:
+  test:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Testing
+    - run: echo {"Print"}
