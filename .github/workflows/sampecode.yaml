@@ -11,6 +11,3 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-  steps:
-    - name: Testing
-    - run: echo {"Print"}
